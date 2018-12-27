@@ -88,7 +88,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                 }
                 
             }
-            self.pickerView!.reloadAllComponents()
+            
+            self.pickerView.reloadAllComponents()
         }
         task.resume()
         // Do any additional setup after loading the view, typically from a nib.
